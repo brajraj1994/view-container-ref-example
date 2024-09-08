@@ -1,0 +1,30 @@
+.dashboard {
+    padding: 20px;
+    border: 1px solid #ccc;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .widget-selection {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .custom-placeholder {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px dashed #007bff;
+  }
+  

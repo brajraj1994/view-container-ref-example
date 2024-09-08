@@ -1,0 +1,21 @@
+<div class="dashboard">
+    <h2>Dynamically load Components using <code style="background-color: rgb(224, 224, 224);">ViewContainerRef</code></h2>
+    <div class="widget-selection">
+      <label>
+        <input type="checkbox" [(ngModel)]="widgetSelections.weather" /> Weather Widget
+      </label>
+      <label>
+        <input type="checkbox" [(ngModel)]="widgetSelections.news" /> News Widget
+      </label>
+      <label>
+        <input type="checkbox" [(ngModel)]="widgetSelections.stock" /> Stock Ticker Widget
+      </label>
+    </div>
+    <button (click)="loadSelectedWidgets()">Load Selected Widgets</button>
+  
+    <!-- Custom Placeholder for Dynamic Widgets -->
+    <div class="custom-placeholder">
+      <ng-container #customPlaceholder></ng-container>
+    </div>
+  </div>
+  
